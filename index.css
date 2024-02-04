@@ -1,0 +1,52 @@
+@import url('https://fonts.google.com/specimen/Inter');
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #000;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    color: azure;
+ }
+    .attribution a { 
+        color: hsl(228, 45%, 44%);
+ }
+
+ .container-1{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 620px;
+    width: 450px;
+    background-color: rgb(42, 38, 38);
+    border-radius: 0.65rem;
+    text-align: center;
+
+
+
+ } 
+
+.container-1 img{
+    object-fit: contain;
+    display: flex;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 120px;
+ }
+
+ .btn-grp{
+    object-fit: contain;
+    margin-top: 45px;
+ }
+
+ #mybutton:hover {
+    background-color: greenyellow;
+    color: white;
+    cursor: pointer;
+    caret-color: #000;
+  }
